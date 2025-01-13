@@ -56,7 +56,7 @@ public class Main {
                     manager.addContact(phoneNumber, group, name, gender, address, birthDate, email);
                     break;
                 case 3:
-                    // Cập nhật thông tin danh bạ
+                   
                     System.out.print("Nhập số điện thoại cần cập nhật: ");
                     String updatePhone = scanner.nextLine();
                     Contact contact = manager.searchContactByPhoneNumber(updatePhone);
